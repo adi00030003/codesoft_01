@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 80px;
+    align-items: center;
+}
+header .left a{
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+
+}
+header .right a{
+    margin: 0 10px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .right a img {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    
+    text-transform: uppercase;
+    height: 2vh;
+    width: 2vh;
+    align-items: center;
+}
+header .right a:last-child {
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: darkred;
+
+}
+header .right a span{
+    
+    text-decoration: none;
+    color: #000;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 50px 0;
+    gap: 40px;
+}
+
+.about .intro{
+    flex: 5;
+}
+.about .intro h2{
+    text-transform: uppercase;
+    font-size: x-large;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.about .intro p{
+    font-size: larger;
+    line-height: 35px;
+}
+.about .image img{
+    flex: 2;
+    height: 50vh;
+    width: 45vh;
+
+}
+skills-section{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.skills-section h2{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.skills-section .text{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: large;
+    line-height: 30px;
+
+}
+.skills-section .cells{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+.skills-section .cells .cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 20px;
+    border: 1.5px solid #000;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+}
+.skills-section .cells .cell img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 2px;
+    
+}
+.skills-section .cells .cell span{
+    font-size: 18px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+.skills-section .text{
+    text-align: center;
+    margin: 10px 20px;
+    font-size: large;
+    line-height: 30px;
+}
+.project-section{
+    padding: 0px 50px;
+}
+.project-section h2{
+    display: flex;
+    font-size: 35px;
+    margin-bottom: 30px;
+    padding: 20px;
+    justify-content: center;
+    text-decoration: underline;
+    
+}
+.project-section .group{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+}
+.project-section .group .project-detail{
+    align-items: center;
+    flex: 2;
+}
+.project-section .group .project-detail img{
+    width: 32vh;
+    height: 18vh;
+}
+.project-section .group .project-detail p{
+    font-weight: 700;
+    margin: 5px 65px;
+}
+.project-section .group .text{
+    font-size: large;
+    flex: 8;
+    line-height: 30px;
+}
+
+.project-section .group .project-detail{
+    width: 20vh;
+    height:10vh ;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.resume{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.resume h2{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+
+    
+}
+
+.resume  a{
+    background: #000;
+    padding: 15px 25px;
+    color: #1680ac;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 500px;
+
+
+}
+
+.contact-section{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.contact-section h2{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+
+    
+}
+.contact-section .text{
+    font-size: large;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.contact-section .logos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+.contact-section .logos .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 20px;
+    border: 1.5px solid #000;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+}
+.contact-section .logos .logo img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 2px;
+    
+    
+}
+.contact-section .logos .logo p{
+    font-size: 18px;
+    padding: 0 10px;
+}
+ hr{
+    border: 0;
+    background-color: #000;
+    height: 2.2px;
+    margin: 50px 30px;
+}
